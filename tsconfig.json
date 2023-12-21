@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node16",
+        "target": "es2022",
+        "module": "node16",
+        "lib": [
+            "es2019",
+            "esnext.asynciterable",
+            "esnext.bigint"
+        ],
+        "strict": true,
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "declarationDir": "dist",
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "outDir": "dist"
+    },
+    "include": [
+        "bin",
+        "tests"
+    ]
+}
