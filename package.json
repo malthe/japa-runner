@@ -1,10 +1,14 @@
 {
   "type": "module",
+  "scripts": {
+    "test": "node --loader ts-node/esm --enable-source-maps bin/test.ts"
+  },
   "devDependencies": {
     "@japa/assert": "^2.1.0",
     "@japa/core": "^9.0.0",
     "@japa/expect": "^3.0.0-1",
     "@japa/runner": "^3.0.0-9",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
